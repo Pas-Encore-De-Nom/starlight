@@ -6,8 +6,8 @@ import starlightVersions from 'starlight-versions';
 // https://astro.build/config
 export default defineConfig({
   // Replace <TON-USERNAME> with your GitHub username and <NOM-DU-REPO> with your repository name.
-  site: 'https://<TON-USERNAME>.github.io',
-  base: '/<NOM-DU-REPO>',
+  site: 'https://wiki-Arkyfacts.github.io',
+  base: '/starlight/',
   integrations: [
     starlight({
       title: 'Ma Doc',
