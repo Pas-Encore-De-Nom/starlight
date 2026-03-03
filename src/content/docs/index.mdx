@@ -1,12 +1,89 @@
 ---
-title: Bienvenue dans Ma Doc
-description: Bienvenue dans la documentation de mon projet.
+title: Bienvenue sur GOAT — Hytale PvP Faction
+description: Documentation officielle du serveur Hytale PvP Faction GOAT. Retrouvez toutes les mécaniques, règles et guides.
+template: splash
+hero:
+  title: "⚔️ GOAT — Hytale PvP Faction"
+  tagline: "La documentation officielle de notre serveur Hytale PvP Faction. Retrouvez toutes les mécaniques, règles et guides pour les joueurs et l'équipe."
+  actions:
+    - text: Commencer
+      link: /starlight/administration/
+      icon: right-arrow
+      variant: primary
+    - text: Voir le code source
+      link: https://github.com/Pas-Encore-De-Nom
+      icon: external
 ---
 
-## Bienvenue
+import { Card, CardGrid, LinkCard, Badge } from '@astrojs/starlight/components';
 
-Ceci est la page d'accueil de votre documentation.
+## 🗺️ Exploration rapide
 
-## Premiers pas
+<CardGrid>
+  <Card title="🛡️ Administration" icon="setting">
+    Rôles, permissions, modération, surveillance et logs. Tout ce qu'il faut savoir pour administrer le serveur.
 
-Commencez par explorer les guides disponibles dans la barre latérale.
+    [Voir l'administration →](/starlight/administration/)
+  </Card>
+  <Card title="⚔️ Factions" icon="seti:git">
+    Créez votre faction, gérez vos membres, vos relations et votre puissance.
+
+    [Voir les factions →](/starlight/factions/)
+  </Card>
+  <Card title="🗺️ Claims" icon="map">
+    Comprenez le système de territoire : Nature, Découvert, Avant-Poste et Bastion.
+
+    [Voir les claims →](/starlight/claims/)
+  </Card>
+  <Card title="🔧 Plugins" icon="puzzle">
+    XP, Market, Spawner, Jobs, Événements et Quêtes — tous les plugins du serveur expliqués.
+
+    [Voir les plugins →](/starlight/plugins/)
+  </Card>
+  <Card title="🗡️ Items & Blocs" icon="star">
+    Pillage, Runes, Arbre de compétences, Artefacts et Banque.
+
+    [Voir les items →](/starlight/items-blocs/)
+  </Card>
+  <Card title="🌍 Mondes" icon="open-book">
+    Monde Principal, Minage, Farm et Lobby — description de chaque monde du serveur.
+
+    [Voir les mondes →](/starlight/mondes/)
+  </Card>
+</CardGrid>
+
+## 📋 Roadmap du projet
+
+<CardGrid>
+  <LinkCard title="Voir la Roadmap complète" description="Suivez l'avancement du projet et les prochaines étapes." href="/starlight/roadmap/" />
+</CardGrid>
+
+## 🛠️ État du développement
+
+| Système | Statut | Documenté |
+|---|---|---|
+| XP (générique) | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/xp/) |
+| Market | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/market/) |
+| Spawner | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/spawner/) |
+| Jobs | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/jobs/) |
+| Quêtes | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/quetes/) |
+| Événements | <Badge text="🚧 En cours" variant="caution" /> | [Docs →](/starlight/plugins/events/) |
+| Monde Event | <Badge text="🚧 En cours" variant="caution" /> | [Docs →](/starlight/mondes/event/) |
+| Mondes (Minage/Farm) | <Badge text="🚧 En cours" variant="caution" /> | [Docs →](/starlight/mondes/) |
+| Factions | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/factions/) |
+| Claims | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/claims/) |
+| Pillage | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/pillage/) |
+| Runes | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/runes/) |
+| Arbre de compétences | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/arbre-competences/) |
+| Banque | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/banque/) |
+| Casino | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/systemes/casino/) |
+| Mise à prix PvP | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/systemes/mise-a-prix/) |
+| Monitoring | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/systemes/monitoring/) |
+
+## 🧑‍💻 Espace développeurs
+
+<CardGrid>
+  <LinkCard title="Guide de contribution" description="Environnement, conventions de code et workflow Git pour contribuer au projet." href="/starlight/dev/contribution/" />
+  <LinkCard title="ADR — Décisions d'architecture" description="Toutes les décisions techniques documentées et justifiées." href="/starlight/dev/adr/" />
+</CardGrid>
+
