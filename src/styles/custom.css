@@ -106,3 +106,62 @@ starlight-announcement-banner {
 .pagination-links a:hover {
   background-color: color-mix(in srgb, var(--sl-color-accent) 10%, transparent);
 }
+
+/* =============================================================
+   RESPONSIVE MOBILE
+   ============================================================= */
+
+/* ── Tables : défilement horizontal sur mobile ── */
+.sl-markdown-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Blocs de code : défilement horizontal sur mobile ── */
+.sl-markdown-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Images : largeur max 100 % ── */
+.sl-markdown-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Petits écrans (≤ 600 px) ── */
+@media (max-width: 37.5rem) {
+  /* Réduire la taille des titres pour éviter le débordement */
+  .sl-markdown-content h1 { font-size: 1.6rem; }
+  .sl-markdown-content h2 { font-size: 1.3rem; }
+  .sl-markdown-content h3 { font-size: 1.1rem; }
+
+  /* Blocs de code : taille de police réduite pour les petits écrans */
+  .sl-markdown-content pre,
+  .sl-markdown-content code {
+    font-size: 0.8rem;
+  }
+
+  /* Pagination : empilage vertical sur très petits écrans */
+  .pagination-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Bandeau d'annonce : texte centré et padding réduit */
+  starlight-announcement-banner {
+    text-align: center;
+    padding-inline: 0.75rem;
+  }
+}
+
+/* ── Écrans moyens (≤ 900 px) ── */
+@media (max-width: 56.25rem) {
+  /* CardGrid : une colonne sur tablette/mobile */
+  .sl-markdown-content .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
