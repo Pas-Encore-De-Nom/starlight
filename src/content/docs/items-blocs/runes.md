@@ -1,6 +1,7 @@
 ---
 title: Runes
 description: Système runique d'amélioration des équipements sur GOAT.
+tags: [plugin, planifie]
 sidebar:
   order: 3
 ---

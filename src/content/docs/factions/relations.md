@@ -1,6 +1,7 @@
 ---
 title: Relations entre factions
 description: Système de diplomatie et de relations entre factions sur GOAT.
+tags: [faction, pvp, planifie]
 sidebar:
   order: 3
 ---
@@ -20,6 +21,26 @@ Les factions peuvent établir différents types de relations entre elles, influe
 | **Wild** | Zones sauvages sans claim — PvP activé pour tous |
 | **Event** | Zone d'événement temporaire — règles spécifiques à l'événement |
 | **Protected** | Zone protégée (ex : spawn, zones admin) — aucun PvP, aucun dommage |
+
+## Graphe des relations
+
+```mermaid
+graph LR
+    A[Ta Faction] -- "❌ PvP impossible" --> A
+    A -- "❌ PvP / Accès claims\n(si configuré)" --> Allie[Allié]
+    A -- "✅ PvP Wild\nuniquement" --> Neutre[Neutre]
+    A -- "✅ PvP partout\nAttaque claims" --> Ennemi[Ennemi]
+    A -- "✅ PvP libre" --> Wild[Wild]
+    A -- "🛡️ Aucun dommage" --> Protected[Protected]
+    A -- "🎯 Règles event" --> Event[Event]
+
+    style Allie fill:#27ae60,color:#fff
+    style Neutre fill:#7f8c8d,color:#fff
+    style Ennemi fill:#c0392b,color:#fff
+    style Wild fill:#e67e22,color:#fff
+    style Protected fill:#2980b9,color:#fff
+    style Event fill:#8e44ad,color:#fff
+```
 
 ## Règles de PvP par relation
 

@@ -1,6 +1,7 @@
 ---
 title: Quêtes
 description: Système de quêtes du serveur GOAT.
+tags: [plugin, stable]
 sidebar:
   order: 7
 ---

@@ -1,6 +1,7 @@
 ---
 title: Découvert
 description: Zones découvertes — claims sans protection sur GOAT.
+tags: [claim, planifie]
 sidebar:
   order: 3
 ---

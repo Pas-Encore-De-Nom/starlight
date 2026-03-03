@@ -1,6 +1,7 @@
 ---
 title: Avant-Poste
 description: Claims classiques avec protection basique sur GOAT.
+tags: [claim, pvp, planifie]
 sidebar:
   order: 4
 ---

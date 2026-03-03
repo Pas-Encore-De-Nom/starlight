@@ -1,6 +1,7 @@
 ---
 title: Factions
 description: Vue d'ensemble du système de factions du serveur GOAT.
+tags: [faction, planifie]
 sidebar:
   order: 1
 ---

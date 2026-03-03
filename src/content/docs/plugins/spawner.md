@@ -1,6 +1,7 @@
 ---
 title: Spawner
 description: Système de spawners personnalisés du serveur GOAT.
+tags: [plugin, stable]
 sidebar:
   order: 4
 ---

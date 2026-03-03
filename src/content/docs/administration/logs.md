@@ -1,6 +1,7 @@
 ---
 title: Logs
 description: Système de journalisation du serveur GOAT.
+tags: [administration, stable]
 sidebar:
   order: 5
 ---

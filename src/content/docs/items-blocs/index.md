@@ -1,6 +1,7 @@
 ---
 title: Items & Blocs
 description: Vue d'ensemble des items et blocs spéciaux du serveur GOAT.
+tags: [plugin, planifie]
 sidebar:
   order: 1
 ---

@@ -1,6 +1,7 @@
 ---
 title: Monde Minage
 description: Le monde de minage du serveur GOAT.
+tags: [monde, wip]
 sidebar:
   order: 3
 ---

@@ -1,0 +1,108 @@
+/* =============================================================
+   GOAT — Hytale PvP Faction : Thème personnalisé
+   Palette : noir / or / rouge sang — univers médiéval fantasy PvP
+   ============================================================= */
+
+/* ── Mode sombre (défaut) ── */
+:root {
+  --sl-color-accent-low:  #3d1f00;
+  --sl-color-accent:      #c4801a;
+  --sl-color-accent-high: #f0c040;
+
+  --sl-color-white:   #f5ede0;
+  --sl-color-gray-1:  #ede8dd;
+  --sl-color-gray-2:  #c9c3b6;
+  --sl-color-gray-3:  #8c8478;
+  --sl-color-gray-4:  #514c46;
+  --sl-color-gray-5:  #2d2922;
+  --sl-color-gray-6:  #1c1813;
+  --sl-color-black:   #110e0b;
+
+  --sl-color-bg-nav:         #100d09;
+  --sl-color-bg-sidebar:     #130f0b;
+  --sl-color-bg:             #1a1512;
+  --sl-color-bg-inline-code: #2a2218;
+  --sl-color-hairline:       #2e2820;
+}
+
+/* ── Mode clair — parchemin médiéval ── */
+:root[data-theme='light'] {
+  --sl-color-accent-low:  #f0d8a0;
+  --sl-color-accent:      #b5700f;
+  --sl-color-accent-high: #7a3a00;
+
+  /* blanc → couleur de texte foncée ; noir → fond clair */
+  --sl-color-white:   #2c1a07;
+  --sl-color-gray-1:  #3d2910;
+  --sl-color-gray-2:  #6b4c24;
+  --sl-color-gray-3:  #9a7451;
+  --sl-color-gray-4:  #c4a878;
+  --sl-color-gray-5:  #d8c4a0;
+  --sl-color-gray-6:  #eddfbf;
+  --sl-color-black:   #fdf5e4;
+
+  --sl-color-bg-nav:         #f0ddb8;
+  --sl-color-bg-sidebar:     #f5e8cc;
+  --sl-color-bg:             #fdf5e4;
+  --sl-color-bg-inline-code: #e8d8b0;
+  --sl-color-hairline:       #d4bc90;
+}
+
+/* ── Titre du site dans la navbar ── */
+.site-title {
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--sl-color-accent-high) !important;
+}
+
+/* ── Liens actifs dans la sidebar ── */
+[aria-current='page'],
+[aria-current='page']:hover {
+  background-color: color-mix(in srgb, var(--sl-color-accent) 15%, transparent);
+  border-inline-start-color: var(--sl-color-accent);
+}
+
+/* ── Headings avec accent doré ── */
+.sl-markdown-content h1,
+.sl-markdown-content h2 {
+  border-bottom: 1px solid color-mix(in srgb, var(--sl-color-accent) 30%, transparent);
+  padding-bottom: 0.25rem;
+}
+
+/* ── Tables : header léger en or ── */
+.sl-markdown-content th {
+  background-color: color-mix(in srgb, var(--sl-color-accent) 12%, transparent);
+  color: var(--sl-color-accent-high);
+}
+
+/* ── Bandeau d'annonce ── */
+starlight-announcement-banner {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--sl-color-accent) 20%, var(--sl-color-black)) 0%,
+    color-mix(in srgb, var(--sl-color-accent) 10%, var(--sl-color-black)) 100%
+  );
+  border-bottom: 1px solid color-mix(in srgb, var(--sl-color-accent) 40%, transparent);
+}
+
+/* ── Blocs custom (markdown-blocks) ── */
+.sl-markdown-content .starlight-aside--regle {
+  border-color: #c0392b;
+}
+.sl-markdown-content .starlight-aside--strategie {
+  border-color: #8e44ad;
+}
+.sl-markdown-content .starlight-aside--conseil {
+  border-color: #27ae60;
+}
+.sl-markdown-content .starlight-aside--lore {
+  border-color: #2980b9;
+}
+
+/* ── Pagination : boutons plus visibles ── */
+.pagination-links a {
+  border-color: color-mix(in srgb, var(--sl-color-accent) 50%, transparent);
+}
+.pagination-links a:hover {
+  background-color: color-mix(in srgb, var(--sl-color-accent) 10%, transparent);
+}

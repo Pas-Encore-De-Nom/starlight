@@ -1,6 +1,7 @@
 ---
 title: Événements
 description: Système d'événements du serveur GOAT.
+tags: [plugin, pvp, wip]
 sidebar:
   order: 6
 ---

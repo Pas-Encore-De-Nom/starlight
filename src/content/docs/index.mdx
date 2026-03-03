@@ -15,7 +15,7 @@ hero:
       icon: external
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, Badge } from '@astrojs/starlight/components';
 
 ## 🗺️ Exploration rapide
 
@@ -56,5 +56,34 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 <CardGrid>
   <LinkCard title="Voir la Roadmap complète" description="Suivez l'avancement du projet et les prochaines étapes." href="/starlight/roadmap/" />
+</CardGrid>
+
+## 🛠️ État du développement
+
+| Système | Statut | Documenté |
+|---|---|---|
+| XP (générique) | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/xp/) |
+| Market | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/market/) |
+| Spawner | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/spawner/) |
+| Jobs | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/jobs/) |
+| Quêtes | <Badge text="✅ Stable" variant="success" /> | [Docs →](/starlight/plugins/quetes/) |
+| Événements | <Badge text="🚧 En cours" variant="caution" /> | [Docs →](/starlight/plugins/events/) |
+| Monde Event | <Badge text="🚧 En cours" variant="caution" /> | [Docs →](/starlight/mondes/event/) |
+| Mondes (Minage/Farm) | <Badge text="🚧 En cours" variant="caution" /> | [Docs →](/starlight/mondes/) |
+| Factions | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/factions/) |
+| Claims | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/claims/) |
+| Pillage | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/pillage/) |
+| Runes | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/runes/) |
+| Arbre de compétences | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/arbre-competences/) |
+| Banque | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/items-blocs/banque/) |
+| Casino | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/systemes/casino/) |
+| Mise à prix PvP | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/systemes/mise-a-prix/) |
+| Monitoring | <Badge text="📋 Planifié" variant="note" /> | [Docs →](/starlight/systemes/monitoring/) |
+
+## 🧑‍💻 Espace développeurs
+
+<CardGrid>
+  <LinkCard title="Guide de contribution" description="Environnement, conventions de code et workflow Git pour contribuer au projet." href="/starlight/dev/contribution/" />
+  <LinkCard title="ADR — Décisions d'architecture" description="Toutes les décisions techniques documentées et justifiées." href="/starlight/dev/adr/" />
 </CardGrid>
 

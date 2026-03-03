@@ -1,6 +1,7 @@
 ---
 title: Monde Principal
 description: Le monde principal du serveur GOAT — factions, PvP, Warzone et Spawn.
+tags: [monde, pvp, wip]
 sidebar:
   order: 2
 ---

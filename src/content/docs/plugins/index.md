@@ -1,6 +1,7 @@
 ---
 title: Plugins
 description: Vue d'ensemble des plugins du serveur GOAT.
+tags: [plugin]
 sidebar:
   order: 1
 ---
@@ -29,3 +30,40 @@ Tous les plugins partagent un composant ECS (Entity Component System) commun qui
 - La communication entre plugins via un bus d'événements
 
 Cette architecture permet à des plugins comme les **Factions** et les **Jobs** d'utiliser le même système d'XP sans duplication de code.
+
+## Diagramme d'interactions
+
+```mermaid
+graph TD
+    ECS["ECS Core<br/>(XpComponent, BalanceComponent)"]
+    BUS["Bus d'evenements"]
+
+    XP["XP"] --> ECS
+    ECS --> BUS
+
+    Jobs["Jobs"] -- "Gain XP metier" --> XP
+    Jobs -- "Recompenses" --> Market
+    Quetes["Quetes"] -- "Gain XP" --> XP
+    Quetes -- "Recompenses items" --> Market
+    Events["Evenements"] -- "Gain XP" --> XP
+    Events -- "Recompenses" --> Market
+    Spawner["Spawner"] -- "Mobs spawnes" --> Jobs
+    Spawner -- "Mobs spawnes" --> Events
+    Market["Market"] --> BUS
+    Factions["Factions"] -- "Puissance via XP" --> XP
+    Factions --> BUS
+    Claims["Claims"] -- "Regles de zone" --> Factions
+
+    style ECS fill:#2980b9,color:#fff
+    style BUS fill:#8e44ad,color:#fff
+    style XP fill:#27ae60,color:#fff
+    style Market fill:#27ae60,color:#fff
+    style Jobs fill:#27ae60,color:#fff
+    style Quetes fill:#27ae60,color:#fff
+    style Spawner fill:#27ae60,color:#fff
+    style Events fill:#e67e22,color:#fff
+    style Factions fill:#c0392b,color:#fff
+    style Claims fill:#c0392b,color:#fff
+```
+
+> **Vert** = développé ✅ | **Orange** = en cours 🚧 | **Rouge** = planifié 📋

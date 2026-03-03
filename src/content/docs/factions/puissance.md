@@ -1,6 +1,7 @@
 ---
 title: Puissance
 description: Système de puissance des factions sur GOAT.
+tags: [faction, planifie]
 sidebar:
   order: 4
 ---

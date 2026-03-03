@@ -1,6 +1,7 @@
 ---
 title: XP (Générique)
 description: Système d'expérience générique utilisé par tous les plugins GOAT.
+tags: [plugin, stable]
 sidebar:
   order: 2
 ---

@@ -1,6 +1,7 @@
 ---
 title: Mise à Prix PvP
 description: Système de mise à prix et de ratio K/D sur GOAT.
+tags: [pvp, economie, planifie]
 sidebar:
   order: 2
 ---

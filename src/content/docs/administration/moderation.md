@@ -1,6 +1,7 @@
 ---
 title: Modération
 description: Commandes et procédures de modération du serveur GOAT.
+tags: [administration, stable]
 sidebar:
   order: 3
 ---

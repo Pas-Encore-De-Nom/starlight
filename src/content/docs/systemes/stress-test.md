@@ -1,6 +1,7 @@
 ---
 title: Stress-Test
 description: Plugin de stress-test du serveur GOAT.
+tags: [administration, planifie]
 sidebar:
   order: 4
 ---

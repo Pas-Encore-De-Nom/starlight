@@ -1,6 +1,7 @@
 ---
 title: Lobby
 description: Le lobby du réseau de serveurs GOAT.
+tags: [monde, wip]
 sidebar:
   order: 5
 ---

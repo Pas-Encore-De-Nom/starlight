@@ -1,6 +1,7 @@
 ---
 title: Arbre de Compétences
 description: Système de personnalisation du personnage via l'arbre de compétences sur GOAT.
+tags: [plugin, planifie]
 sidebar:
   order: 4
 ---

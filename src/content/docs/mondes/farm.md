@@ -1,6 +1,7 @@
 ---
 title: Monde Farm
 description: Le monde de farming du serveur GOAT.
+tags: [monde, wip]
 sidebar:
   order: 4
 ---

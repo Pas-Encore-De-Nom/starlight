@@ -1,6 +1,7 @@
 ---
 title: Rôles & Membres
 description: Hiérarchie et permissions des membres d'une faction sur GOAT.
+tags: [faction, planifie]
 sidebar:
   order: 2
 ---

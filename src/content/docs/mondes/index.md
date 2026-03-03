@@ -1,6 +1,7 @@
 ---
 title: Mondes
 description: Vue d'ensemble des différents mondes du serveur GOAT.
+tags: [monde, wip]
 sidebar:
   order: 1
 ---
@@ -23,6 +24,10 @@ Le serveur GOAT est organisé en plusieurs mondes distincts, chacun avec un rôl
   <Card title="🌾 Monde Farm" icon="puzzle">
     Farming de mobs dans des structures thématiques.
     [En savoir plus →](/starlight/mondes/farm/)
+  </Card>
+  <Card title="⚡ Monde Event" icon="rocket">
+    Arènes instanciées pour les événements serveur.
+    [En savoir plus →](/starlight/mondes/event/)
   </Card>
   <Card title="🏛️ Lobby" icon="rocket">
     Accès à tous les serveurs et mini-jeux.

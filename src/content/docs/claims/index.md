@@ -1,6 +1,7 @@
 ---
 title: Claims
 description: Vue d'ensemble du système de claims (territoires) sur GOAT.
+tags: [claim, faction, planifie]
 sidebar:
   order: 1
 ---
@@ -17,6 +18,37 @@ Le système de claims définit comment les factions contrôlent et protègent le
 | **Découvert** | Aucune | ✅ Toujours | ❌ |
 | **Avant-Poste** | Basique | ✅ Si power insuffisant | ❌ (temporaire) |
 | **Bastion** | Maximum | ❌ Jamais | ✅ |
+
+## Cycle de vie d'un claim
+
+```mermaid
+stateDiagram-v2
+    [*] --> Nature : Terrain initial
+    Nature --> Decouvert : Exploration\n(joueur entre dans la zone)
+    Decouvert --> AvantPoste : Rituel d'activation\n+ activité suffisante
+    Decouvert --> Nature : Sans activité\n(expiration)
+    AvantPoste --> Bastion : Upgrade faction\n(bloc spécial placé)
+    AvantPoste --> Nature : Unclaim automatique\n(temps écoulé ou surclaim)
+    AvantPoste --> Decouvert : Surclaim ennemi\n(power insuffisant)
+    Bastion --> [*] : Destruction invincibilité\n+ surclaim impossible
+
+    state Nature {
+        direction LR
+        Accessible à tous
+    }
+    state Decouvert {
+        direction LR
+        Aucune protection
+    }
+    state AvantPoste {
+        direction LR
+        Protection basique
+    }
+    state Bastion {
+        direction LR
+        Protection maximale
+    }
+```
 
 ## Coût d'un claim
 

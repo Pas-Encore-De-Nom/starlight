@@ -1,6 +1,7 @@
 ---
 title: Banque
 description: Système de coffre-fort d'items sur GOAT.
+tags: [economie, plugin, planifie]
 sidebar:
   order: 6
 ---

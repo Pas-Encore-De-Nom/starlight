@@ -1,6 +1,7 @@
 ---
 title: Market
 description: Système d'économie et de marché du serveur GOAT.
+tags: [plugin, economie, stable]
 sidebar:
   order: 3
 ---

@@ -1,6 +1,7 @@
 ---
 title: Rôles & Permissions
 description: Système de rôles et de permissions du serveur GOAT.
+tags: [administration, stable]
 sidebar:
   order: 2
 ---

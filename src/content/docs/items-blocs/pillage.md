@@ -1,6 +1,7 @@
 ---
 title: Pillage
 description: Système de pillage — attaque et défense des claims sur GOAT.
+tags: [pvp, plugin, planifie]
 sidebar:
   order: 2
 ---

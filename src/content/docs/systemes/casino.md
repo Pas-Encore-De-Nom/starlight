@@ -1,6 +1,7 @@
 ---
 title: Casino
 description: Système de casino et jeux d'argent sur le serveur GOAT.
+tags: [economie, planifie]
 sidebar:
   order: 1
 ---

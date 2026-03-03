@@ -1,6 +1,7 @@
 ---
 title: Surveillance
 description: Outils de surveillance et de modération en temps réel sur le serveur GOAT.
+tags: [administration, stable]
 sidebar:
   order: 4
 ---

@@ -1,6 +1,7 @@
 ---
 title: Artefacts & Reliques
 description: Items à usage limité donnant des effets instantanés sur GOAT.
+tags: [plugin, planifie]
 sidebar:
   order: 5
 ---

@@ -1,6 +1,7 @@
 ---
 title: Jobs (Métiers)
 description: Système de métiers et de progression du serveur GOAT.
+tags: [plugin, economie, stable]
 sidebar:
   order: 5
 ---

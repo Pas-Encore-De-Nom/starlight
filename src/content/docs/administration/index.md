@@ -1,6 +1,7 @@
 ---
 title: Administration
 description: Vue d'ensemble du système d'administration du serveur GOAT.
+tags: [administration, stable]
 sidebar:
   order: 1
 ---

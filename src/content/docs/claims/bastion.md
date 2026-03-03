@@ -1,6 +1,7 @@
 ---
 title: Bastion
 description: Le super claim — base principale imprenable sur GOAT.
+tags: [claim, pvp, planifie]
 sidebar:
   order: 5
 ---

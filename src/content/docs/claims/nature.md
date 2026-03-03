@@ -1,6 +1,7 @@
 ---
 title: Nature
 description: Zones naturelles non claimées sur le serveur GOAT.
+tags: [claim, planifie]
 sidebar:
   order: 2
 ---

@@ -1,6 +1,7 @@
 ---
 title: Monitoring
 description: Système de monitoring externe du serveur GOAT.
+tags: [administration, planifie]
 sidebar:
   order: 3
 ---
