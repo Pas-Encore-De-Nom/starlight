@@ -15,7 +15,7 @@ import mermaid from 'astro-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://pas-encore-de-nom.github.io',
+  site: 'https://wiki-arktyfacts.github.io',
   base: '/starlight/',
   integrations: [
     mermaid(),
@@ -27,11 +27,11 @@ export default defineConfig({
         root: { label: 'Francais', lang: 'fr' },
       },
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/Pas-Encore-De-Nom' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/wiki-arktyfacts' },
       ],
       editLink: {
         // TODO: changer 'copilot/create-starlight-documentation' en 'main' apres merge de la PR
-        baseUrl: 'https://github.com/Pas-Encore-De-Nom/starlight/edit/copilot/create-starlight-documentation/',
+        baseUrl: 'https://github.com/wiki-arktyfacts/starlight/edit/copilot/create-starlight-documentation/',
       },
       lastUpdated: true,
       pagination: true,

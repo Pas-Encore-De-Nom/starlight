@@ -14,7 +14,7 @@ Ce guide explique comment rejoindre le développement du projet GOAT, mettre en 
 
 - Java 21+
 - [Hytale SDK / API](https://hytale.com) (version compatible serveur)
-- Git + GitHub account membre de [Pas-Encore-De-Nom](https://github.com/Pas-Encore-De-Nom)
+- Git + GitHub account membre de [wiki-arktyfacts](https://github.com/wiki-arktyfacts)
 - IntelliJ IDEA (recommandé) ou VS Code avec l'extension Java
 
 ## Workflow Git
