@@ -1,0 +1,41 @@
+tags:
+  pvp:
+    label: "⚔️ PvP"
+    description: "Contenu lié au combat JcJ"
+    color: red
+  faction:
+    label: "🏰 Faction"
+    description: "Mécaniques liées aux factions"
+    color: purple
+  economie:
+    label: "💰 Économie"
+    description: "Systèmes économiques du serveur"
+    color: green
+  administration:
+    label: "🛡️ Administration"
+    description: "Outils et guides d'administration"
+    color: blue
+  claim:
+    label: "🗺️ Claim"
+    description: "Système de revendication de territoires"
+    color: orange
+  plugin:
+    label: "🔧 Plugin"
+    description: "Documentation d'un plugin serveur"
+    color: accent
+  monde:
+    label: "🌍 Monde"
+    description: "Description des mondes du serveur"
+    color: blue
+  wip:
+    label: "🚧 WIP"
+    description: "Fonctionnalité en cours de développement"
+    color: red
+  stable:
+    label: "✅ Stable"
+    description: "Fonctionnalité développée et opérationnelle"
+    color: green
+  planifie:
+    label: "📋 Planifié"
+    description: "Fonctionnalité planifiée, pas encore en développement"
+    color: blue
