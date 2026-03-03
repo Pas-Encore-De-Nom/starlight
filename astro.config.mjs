@@ -31,7 +31,7 @@ export default defineConfig({
       ],
       editLink: {
         // TODO: changer 'copilot/create-starlight-documentation' en 'main' apres merge de la PR
-        baseUrl: 'https://github.com/wiki-arktyfacts/starlight/edit/copilot/create-starlight-documentation/',
+        baseUrl: 'https://github.com/wiki-arktyfacts/starlight/edit/copilot/main',
       },
       lastUpdated: true,
       pagination: true,
